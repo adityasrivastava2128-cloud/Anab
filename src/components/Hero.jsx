@@ -24,7 +24,15 @@ export default function Hero({ onOpenExperience, isOpened }) {
   }, []);
 
   const handleOpenClick = () => {
-    // Automatically trigger audio playback if not already playing
+    // Direct audio play within the synchronous user gesture context
+    try {
+      const audio = document.querySelector('audio');
+      if (audio) {
+        audio.play().catch(console.warn);
+      }
+    } catch (e) {
+      console.warn("Audio trigger error:", e);
+    }
     window.dispatchEvent(new CustomEvent('start-music'));
     if (onOpenExperience) {
       onOpenExperience();
