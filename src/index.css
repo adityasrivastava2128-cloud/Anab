@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #171315;
+    color: #FDF8F5;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+    display: block;
+  }
+
+  ::selection {
+    background: #6B2737;
+    color: #FDF8F5;
+  }
+}
+
+/* Film Grain Texture */
+.grain-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* Stationery Paper Texture for the Letter */
+.paper-texture {
+  background-color: #FDF8F5;
+  background-image: 
+    radial-gradient(#e2d5cb 0.75px, transparent 0.75px),
+    linear-gradient(to right, rgba(232, 180, 184, 0.04) 1px, transparent 1px);
+  background-size: 16px 16px, 100% 32px;
+  box-shadow: 
+    0 20px 40px -15px rgba(23, 19, 21, 0.12),
+    0 0 0 1px rgba(107, 39, 55, 0.06),
+    inset 0 0 60px rgba(233, 216, 200, 0.3);
+}
+
+/* Glassmorphism subtle luxury */
+.glass-panel {
+  background: rgba(23, 19, 21, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 180, 184, 0.12);
+}
+
+.glass-panel-light {
+  background: rgba(253, 248, 245, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(107, 39, 55, 0.08);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171315;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3A1B22;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B2737;
+}
+
+/* Radial Vignette */
+.cinematic-vignette {
+  background: radial-gradient(circle at center, transparent 40%, rgba(23, 19, 21, 0.85) 100%);
+}
