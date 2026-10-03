@@ -128,15 +128,22 @@ export default function Timeline() {
           </div>
         </div>
 
-        {/* Section bottom note */}
+        {/* Section bottom note / Missing Her couplet */}
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 15 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2, delay: 0.3 }}
-          className="text-center mt-20"
+          className="text-center mt-20 max-w-md mx-auto"
         >
-          <span className="font-serif italic text-base sm:text-lg text-champagne/60">
+          {config.timeline.poetry && (
+            <div className="py-4 px-6 rounded-2xl bg-almostBlack-card/85 border border-blush/20 shadow-xl mb-4">
+              <p className="font-serif italic text-lg sm:text-xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                "{config.timeline.poetry}"
+              </p>
+            </div>
+          )}
+          <span className="font-serif italic text-sm sm:text-base text-champagne/50">
             "And you still mean the world to me."
           </span>
         </motion.div>

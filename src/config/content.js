@@ -2,7 +2,7 @@
  * =========================================================================
  * PERSONAL CONFIGURATION & CONTENT
  * Tailored for Anab Sofie — Pure text connection, different religions,
- * her eye photo with the pink bow, and a sincere plea for pardon & peace.
+ * her eye photo, sincere reflections, and emotional poetic couplets.
  * =========================================================================
  */
 
@@ -29,6 +29,7 @@ export const config = {
     subtitle: "for anab sofie. ♡",
     greeting: "Hey, Anab.",
     heading: "I made this for you.",
+    poetry: "Tumse kehna bahut kuch tha,\nmagar lafz mere khamosh rahe.",
     note: "We've never met in person. We've never even talked on a call.\nI've seen you and heard your voice, but we only ever communicated through texts.\nI made this simply to tell you what I should have understood, and to ask for your pardon.",
     buttonText: "Open it ♡",
   },
@@ -49,14 +50,16 @@ export const config = {
 
   // Page 3 — The Eye
   eyeSection: {
+    poetry: "Tumhari aankhon mein kuch aisa tha,\nke baat kehne ki zaroorat hi na rahi.",
     line1: "In all the moments we shared, there's something about your eyes...",
     line2: "A quiet, gentle depth that reached me even through a screen.",
     line3: "And maybe that's why this picture stayed with me, long after closing the chat.",
   },
 
-  // Page 4 — What I Should Have Understood
+  // Page 4 — What I Should Have Understood (Regret)
   whatIShouldHaveUnderstood: {
     heading: "What I should have understood.",
+    poetry: "Galti meri thi,\naur afsos bhi mera hi reh gaya.",
     cards: [
       {
         number: "01",
@@ -81,11 +84,12 @@ export const config = {
     ]
   },
 
-  // Page 5 — The Eye Photo (Dedicated to her real eye photo)
+  // Page 5 — The Eye Photo (Memories)
   thePhoto: {
     tag: "A Precious Glimpse",
     title: "The picture of you I held onto.",
     subtitle: "Just one quiet photo that somehow stayed with me through everything.",
+    poetry: "Kuch yaadein waqt ke saath purani nahi hoti,\nbas insaan unhe chupana seekh jaata hai.",
     quote: "We never met in real life. We never talked on a call. But out of all the distance and text bubbles between us, this photo of your eye was the one image of you I kept close to my heart.",
     details: [
       {
@@ -103,10 +107,11 @@ export const config = {
     ]
   },
 
-  // Page 6 — Our Timeline
+  // Page 6 — Our Timeline (Missing Her)
   timeline: {
     heading: "Our story through the screen.",
     subtitle: "How someone I only texted became a person I genuinely cared for.",
+    poetry: "Tum paas nahi ho,\nphir bhi har jagah tumhari kami si hai.",
     entries: [
       {
         tag: "Chapter I",
@@ -146,9 +151,10 @@ export const config = {
     ]
   },
 
-  // Page 7 — Things I Don't Say Enough
+  // Page 7 — Things I Don't Say Enough (Apology)
   thingsIDontSayEnough: {
     heading: "Things I don't say enough.",
+    poetry: "Main tumse maafi nahi maang raha sirf lafzon mein,\nmain chahta hoon ke meri tabdeeli tumhe khud nazar aaye.",
     cards: [
       {
         pre: "Thank you.",
@@ -195,9 +201,10 @@ export const config = {
     ]
   },
 
-  // Page 9 — If You Need Time
+  // Page 9 — If You Need Time (If She Needs Time)
   ifYouNeedTime: {
     heading: "If you need time...",
+    poetry: "Tumhe waqt chahiye toh waqt le lo,\nmohabbat mein jaldi ka koi matlab nahi.",
     statements: [
       { condition: "If looking back at this feels heavy,", reaction: "I understand." },
       { condition: "If you need space and silence,", reaction: "I'll respect that completely." },
@@ -227,12 +234,14 @@ export const config = {
     sender: "Yours"
   },
 
-  // Page 11 — The Final Request (Pardon & Peace)
+  // Page 11 — The Final Question & Final Screen
   finalQuestion: {
     prompt1: "Leaving every expectation behind...",
-    prompt2: "I have just one quiet plea in my heart.",
+    prompt2: "Bas ek guzarish hai—",
+    poetry: "Bas ek guzarish hai—\njo toot gaya hai, usey ek baar baat karke dekhte hain.",
+    finalScreenPoetry: "Tumhe paana meri zid nahi,\nmagar tumhe khona meri khwahish bhi nahi.",
     mainQuestion: "Can you pardon me for everything?",
-    subtext: "I am not asking to talk again.\nI am not asking to come back into your life, or to force a conversation.\nI only hope, somewhere in your heart, you can pardon me for my mistakes\nand let go of any hurt I ever caused you.",
+    subtext: "I am not asking to complicate your world or force anything.\nI only hope, somewhere in your heart, you can pardon me for my mistakes\nand let go of any hurt I ever caused you.",
     yesButtonText: "♡ I pardon you",
     timeButtonText: "I'm still not ready",
     yesResponse: {

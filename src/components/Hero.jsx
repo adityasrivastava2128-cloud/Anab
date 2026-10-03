@@ -111,13 +111,22 @@ export default function Hero({ onOpenExperience, isOpened }) {
             transition={{ duration: 1.4, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             className="flex flex-col items-center mt-3"
           >
-            <h2 className="font-serif italic text-2xl sm:text-3xl text-blush/90 font-light tracking-wide mb-6">
+            <h2 className="font-serif italic text-2xl sm:text-3xl text-blush/90 font-light tracking-wide mb-4">
               {config.intro.heading}
             </h2>
 
+            {/* Opening Poetic Couplet */}
+            {config.intro.poetry && (
+              <div className="my-4 py-3 px-6 rounded-2xl bg-almostBlack/60 border border-blush/20 backdrop-blur-md shadow-lg">
+                <p className="font-serif italic text-lg sm:text-xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                  "{config.intro.poetry}"
+                </p>
+              </div>
+            )}
+
             <div className="w-12 h-[1px] bg-burgundy/40 my-2" />
 
-            <p className="font-sans text-sm sm:text-base text-champagne/75 max-w-md leading-relaxed whitespace-pre-line font-light mt-4 mb-10 tracking-wide">
+            <p className="font-sans text-sm sm:text-base text-champagne/75 max-w-md leading-relaxed whitespace-pre-line font-light mt-3 mb-10 tracking-wide">
               {config.intro.note}
             </p>
 

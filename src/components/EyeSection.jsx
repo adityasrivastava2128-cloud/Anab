@@ -95,6 +95,21 @@ export default function EyeSection() {
           >
             {line3}
           </motion.p>
+
+          {/* Her Eyes Poetic Couplet */}
+          {config.eyeSection.poetry && (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.4, delay: 0.75 }}
+              className="mt-6 py-4 px-6 rounded-2xl bg-almostBlack-card/85 border border-blush/30 shadow-2xl backdrop-blur-md"
+            >
+              <p className="font-serif italic text-xl sm:text-2xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                "{config.eyeSection.poetry}"
+              </p>
+            </motion.div>
+          )}
         </div>
 
         {/* Minimal accent line */}

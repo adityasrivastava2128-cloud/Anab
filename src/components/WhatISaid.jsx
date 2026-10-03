@@ -35,6 +35,22 @@ export default function WhatISaid() {
           >
             {heading}
           </motion.h2>
+
+          {/* Regret Poetic Couplet */}
+          {config.whatIShouldHaveUnderstood.poetry && (
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1.2, delay: 0.2 }}
+              className="mt-6 py-3 px-6 rounded-2xl bg-almostBlack-card/80 border border-blush/20 max-w-md mx-auto shadow-lg"
+            >
+              <p className="font-serif italic text-lg sm:text-xl text-champagne tracking-wide leading-relaxed whitespace-pre-line">
+                "{config.whatIShouldHaveUnderstood.poetry}"
+              </p>
+            </motion.div>
+          )}
+
           <motion.div
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}

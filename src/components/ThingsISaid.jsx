@@ -96,6 +96,15 @@ export default function ThingsISaid() {
                   }`}>
                     {card.message}
                   </p>
+
+                  {/* Apology Poetic Couplet */}
+                  {isApology && config.thingsIDontSayEnough.poetry && (
+                    <div className="mt-6 pt-4 border-t border-blush/25">
+                      <p className="font-serif italic text-lg sm:text-xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                        "{config.thingsIDontSayEnough.poetry}"
+                      </p>
+                    </div>
+                  )}
                 </div>
 
                 {isApology && (

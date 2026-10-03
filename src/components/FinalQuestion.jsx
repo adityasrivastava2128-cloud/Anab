@@ -72,24 +72,39 @@ export default function FinalQuestion() {
                 {prompt1}
               </motion.p>
 
-              {/* "I have one question." */}
+              {/* "Bas ek guzarish hai—" */}
               <motion.p
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 1.2, delay: 0.3 }}
-                className="font-serif text-lg sm:text-xl text-blush/80 font-light tracking-wide mb-12"
+                transition={{ duration: 1.2, delay: 0.2 }}
+                className="font-serif italic text-lg sm:text-xl text-champagne/60 font-light mb-2"
               >
                 {prompt2}
               </motion.p>
 
-              {/* "Can we talk?" */}
+              {/* Final Question Poetic Couplet */}
+              {config.finalQuestion.poetry && (
+                <motion.div
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1.2, delay: 0.3 }}
+                  className="my-6 py-4 px-6 rounded-2xl bg-almostBlack-card/85 border border-blush/25 max-w-lg shadow-xl"
+                >
+                  <p className="font-serif italic text-xl sm:text-2xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                    "{config.finalQuestion.poetry}"
+                  </p>
+                </motion.div>
+              )}
+
+              {/* "Can we talk?" / Main Question */}
               <motion.h2
                 initial={{ opacity: 0, scale: 0.96 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1.4, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                className="font-serif text-5xl sm:text-6xl md:text-7xl font-normal text-ivory tracking-tight drop-shadow-md mb-8"
+                className="font-serif text-4xl sm:text-5xl md:text-6xl font-normal text-ivory tracking-tight drop-shadow-md mb-8"
               >
                 {mainQuestion}
               </motion.h2>
@@ -189,6 +204,15 @@ export default function FinalQuestion() {
                 </motion.button>
               </div>
 
+              {/* Final Screen Poetic Couplet */}
+              {config.finalQuestion.finalScreenPoetry && (
+                <div className="my-6 py-3.5 px-6 rounded-2xl bg-almostBlack/60 border border-blush/25 text-center max-w-md shadow-lg">
+                  <p className="font-serif italic text-lg sm:text-xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                    "{config.finalQuestion.finalScreenPoetry}"
+                  </p>
+                </div>
+              )}
+
               <p className="font-sans text-xs text-champagne/50 tracking-wider">
                 {yesResponse.footnote}
               </p>
@@ -236,10 +260,19 @@ export default function FinalQuestion() {
                 "{timeResponse.line4}"
               </p>
 
+              {/* Final Screen Poetic Couplet */}
+              {config.finalQuestion.finalScreenPoetry && (
+                <div className="my-6 py-3.5 px-6 rounded-2xl bg-almostBlack/60 border border-champagne/20 text-center max-w-md shadow-lg">
+                  <p className="font-serif italic text-lg sm:text-xl text-champagne leading-relaxed tracking-wide whitespace-pre-line">
+                    "{config.finalQuestion.finalScreenPoetry}"
+                  </p>
+                </div>
+              )}
+
               {/* Reset button */}
               <button
                 onClick={() => setResponseState(null)}
-                className="mt-10 inline-flex items-center gap-1.5 text-xs text-champagne/40 hover:text-champagne/80 transition-colors cursor-pointer"
+                className="mt-6 inline-flex items-center gap-1.5 text-xs text-champagne/40 hover:text-champagne/80 transition-colors cursor-pointer"
               >
                 <RotateCcw className="w-3 h-3" />
                 <span>Return to question</span>

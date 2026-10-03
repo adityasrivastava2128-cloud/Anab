@@ -57,6 +57,21 @@ export default function TimeSection() {
           ))}
         </div>
 
+        {/* If She Needs Time Poetic Couplet */}
+        {config.ifYouNeedTime.poetry && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.3, delay: 0.2 }}
+            className="my-10 p-5 rounded-2xl bg-white/80 border border-burgundy/20 max-w-md mx-auto shadow-sm"
+          >
+            <p className="font-serif italic text-lg sm:text-xl text-burgundy font-normal leading-relaxed whitespace-pre-line">
+              "{config.ifYouNeedTime.poetry}"
+            </p>
+          </motion.div>
+        )}
+
         {/* Calm conclusion text */}
         <motion.div
           initial={{ opacity: 0 }}

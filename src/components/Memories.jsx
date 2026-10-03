@@ -125,15 +125,30 @@ export default function Memories() {
               </motion.div>
             ))}
 
+            {/* Memories Poetic Couplet */}
+            {config.thePhoto.poetry && (
+              <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1.2, delay: 0.35 }}
+                className="p-6 rounded-2xl bg-white/90 border border-burgundy/20 shadow-md"
+              >
+                <p className="font-serif italic text-lg sm:text-xl text-burgundy font-normal leading-relaxed whitespace-pre-line">
+                  "{config.thePhoto.poetry}"
+                </p>
+              </motion.div>
+            )}
+
             {/* Poetic Quote Box */}
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 1.2, delay: 0.4 }}
+              transition={{ duration: 1.2, delay: 0.45 }}
               className="p-6 rounded-2xl bg-gradient-to-br from-burgundy/10 to-blush/15 border-l-4 border-burgundy"
             >
-              <p className="font-serif italic text-base sm:text-lg text-burgundy font-normal leading-relaxed">
+              <p className="font-serif italic text-base sm:text-lg text-almostBlack/85 font-normal leading-relaxed">
                 "{quote}"
               </p>
             </motion.div>
