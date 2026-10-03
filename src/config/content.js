@@ -2,7 +2,7 @@
  * =========================================================================
  * PERSONAL CONFIGURATION & CONTENT
  * Tailored for Anab Sofie — Pure text connection, different religions,
- * her eye photo with the pink bow, and asking to just talk as friends.
+ * her eye photo with the pink bow, and a sincere plea for pardon & peace.
  * =========================================================================
  */
 
@@ -20,7 +20,7 @@ export const config = {
 
   // Contact links
   contact: {
-    whatsapp: "https://wa.me/?text=Hey%2C%20I%20saw%20what%20you%20made.%20Let%27s%20talk%20as%20friends.",
+    whatsapp: "https://wa.me/?text=Hey%2C%20I%20saw%20what%20you%20made.",
     instagram: "https://instagram.com",
   },
 
@@ -29,7 +29,7 @@ export const config = {
     subtitle: "for anab sofie. ♡",
     greeting: "Hey, Anab.",
     heading: "I made this for you.",
-    note: "We've never met in person. We've never even talked on a call.\nI've seen you and heard your voice, but we only ever texted.\nI'm not asking for anything complicated — I just hope we can talk as friends.",
+    note: "We've never met in person. We've never even talked on a call.\nI've seen you and heard your voice, but we only ever communicated through texts.\nI made this simply to tell you what I should have understood, and to ask for your pardon.",
     buttonText: "Open it ♡",
   },
 
@@ -40,8 +40,8 @@ export const config = {
       "I know the reality of us. We've never stood in the same room, and we've never even had a single phone call together.",
       "I've heard your voice and I've seen you, but every direct conversation we ever had was typed out on a glowing screen.",
       "And I know things aren't simple. We come from different religions, different backgrounds, and different worlds.",
-      "I'm not here to complicate your life, and I'm not asking for relationship promises or anything heavy.",
-      "Even if it's just as friends — with zero pressure, zero expectations, and total respect for your boundaries.",
+      "I am not here to complicate your life, and I am not asking for anything from you.",
+      "I just wanted to make this one honest attempt to apologize properly, with zero pressure and complete respect for your peace.",
       "No excuses.\nNo blaming the distance, the screen, or our differences.\nNo trying to make you feel guilty.",
       "Just me, being completely honest with you."
     ]
@@ -140,8 +140,8 @@ export const config = {
       },
       {
         tag: "Chapter VII",
-        title: "Just As Friends",
-        description: "I don't want to force anything or complicate your world. I just value who you are, and hope we can always talk as good friends with genuine respect.",
+        title: "What Hasn't Changed",
+        description: "Even after everything went quiet, my respect for who you are, your faith, and your peace hasn't faded for a single second. I only wish you good things.",
       }
     ]
   },
@@ -168,7 +168,7 @@ export const config = {
       },
       {
         pre: "And I'm truly sorry.",
-        message: "For the moments when messages got misunderstood, or when my words made you feel pressured. I never wanted to make things hard for you. I just want your peace, even if it's just being friends.",
+        message: "For the moments when messages got misunderstood, or when my words made you feel pressured or hurt. I never wanted to bring stress into your life. You deserved more patience, understanding, and peace from me.",
         isApology: true
       }
     ]
@@ -180,18 +180,18 @@ export const config = {
     paragraphs: [
       "I know the reality we exist in.",
       "We've never met. We've never had a call. And our different religions bring real weight.",
-      "I'm not asking for relationship promises or anything that makes you uncomfortable.",
+      "I'm not asking for promises, demands, or anything that makes you uncomfortable.",
       "I'm asking for something much simpler.",
-      "A chance to just talk as friends, with maturity, gentleness, and zero pressure."
+      "A chance to leave you with my true, honest apology, and to show you that I understand where I went wrong."
     ],
     progression: [
       { step: "RESPECT", note: "for your faith, your boundaries, and your peace" },
-      { step: "FRIENDSHIP", note: "with zero pressure, expectations, or demands" },
-      { step: "CONSISTENCY", note: "proving that I value you as a person" }
+      { step: "ACCOUNTABILITY", note: "recognizing my mistakes without making excuses" },
+      { step: "PEACE", note: "wishing you only happiness with zero demands" }
     ],
     closing: [
-      "I don't want to make things complicated for you.",
-      "I just want to be someone you can talk to as a friend, without any pressure."
+      "I don't want to make excuses or demand anything from you.",
+      "I just hope you can find peace, and pardon me for everything."
     ]
   },
 
@@ -199,11 +199,11 @@ export const config = {
   ifYouNeedTime: {
     heading: "If you need time...",
     statements: [
-      { condition: "If talking right now feels like too much,", reaction: "I understand." },
-      { condition: "If you need space and silence to breathe,", reaction: "I'll respect that completely." },
-      { condition: "Whenever you feel comfortable,", reaction: "we can just talk as friends." },
+      { condition: "If looking back at this feels heavy,", reaction: "I understand." },
+      { condition: "If you need space and silence,", reaction: "I'll respect that completely." },
+      { condition: "If you just want quiet peace,", reaction: "I wish that for you wholeheartedly." },
     ],
-    conclusion: "You never have to justify your boundaries or your silence to me.\n\nI just hope that whenever you're ready,\nyou'll remember that there's a friend here\nwho genuinely wishes you only happiness and peace."
+    conclusion: "You never have to justify your boundaries or your silence to me.\n\nI just hope that you can let go of any hurt I caused,\nand know that someone out here\ngenuinely wishes you only happiness, safety, and peace."
   },
 
   // Page 10 — The Letter
@@ -215,13 +215,13 @@ export const config = {
       "We've never met in real life. We've never even had a single phone call to just talk back and forth.",
       "I've heard the sound of your voice and I know what you look like, but everything between you and me existed in text messages, late-night typing, notifications lighting up a dark room, and this one photo of your eye that I held onto.",
       "And I know that our different religions and backgrounds make things complicated in ways neither of us can easily change.",
-      "I want to make one thing completely clear: I am not trying to pressure you into a relationship, and I never want to put any burden or guilt on your shoulders.",
-      "I just value who you are as a person. I miss having you in my days, even if it's just as friends.",
+      "I want to make one thing completely clear: I am not trying to pressure you, and I never want to put any burden, guilt, or expectations on your shoulders.",
+      "I just value who you are as a person. I truly appreciated every moment and conversation we shared across the screen.",
       "When you only communicate through text without ever talking on calls, it's so easy for words to be misunderstood. Without live tone or hearing each other in the moment, a simple text can feel cold when it was never meant to be. I know there were times I should have been calmer, more thoughtful, and far more patient.",
       "You mean a lot to me, and your peace of mind, your faith, and your comfort will always come first.",
-      "I don't expect you to forget anything, and I'm not asking to force us to talk again or complicate your world.",
+      "I don't expect you to forget anything, and I'm not asking to force anything or complicate your world.",
       "I just wanted to make this one sincere apology, and ask you to pardon me for everything.",
-      "Wherever life takes you, I genuinely wish you only happiness and peace."
+      "Wherever life takes you, I genuinely wish you only happiness, safety, and peace."
     ],
     signoff: "With genuine respect and apology,",
     sender: "Yours"
