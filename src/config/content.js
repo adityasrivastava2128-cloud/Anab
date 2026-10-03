@@ -39,12 +39,11 @@ export const config = {
     heading: "Before you read anything...",
     paragraphs: [
       "I know the reality of us. We've never stood in the same room, and we've never even had a single phone call together.",
-      "I've heard your voice and I've seen you, but every direct conversation we ever had was typed out on a glowing screen.",
-      "And I know things aren't simple. We come from different religions, different backgrounds, and different worlds.",
-      "I am not here to complicate your life, and I am not asking for anything from you.",
-      "I just wanted to make this one honest attempt to apologize properly, with zero pressure and complete respect for your peace.",
-      "No excuses.\nNo blaming the distance, the screen, or our differences.\nNo trying to make you feel guilty.",
-      "Just me, being completely honest with you."
+      "We started back in January on a random app. We didn't even talk every day—sometimes 10 days would go by in silence—yet an unspoken closeness kept us connected.",
+      "When we moved to Instagram, we both knew the truth: we come from different religions and different worlds, with all the odds stacked against us.",
+      "Still, what we felt was real. We grew deeply attached, and I fell in love with you.",
+      "Then life got difficult. My serious illness and getting admitted to the hospital changed the rhythm of our conversations, and distance slowly replaced our warmth.",
+      "I am not here to make excuses or complicate your life. I just want to thank you for being with me since January, and from the bottom of my heart, ask you to forgive and pardon me."
     ]
   },
 
@@ -64,12 +63,12 @@ export const config = {
       {
         number: "01",
         title: "Texts make misunderstandings easy.",
-        description: "Because we never talked on calls, every conversation was just words on a screen. Texts can easily seem cold or blunt when they were never meant to be. I should have been twice as patient and thoughtful with what I typed."
+        description: "Because we only talked through text, every conversation was vulnerable to tone. When things felt quiet or strained, especially after the hospital, I should have shown more patience rather than letting anxiety speak."
       },
       {
         number: "02",
         title: "The weight of our different worlds.",
-        description: "Navigating different religions and family expectations brings real pressure. I should have understood that you were being cautious, rather than taking things personally."
+        description: "Knowing we come from different religions brings real pressure and hesitation. I should have honored how heavy that reality was for you, instead of expecting things to be simple."
       },
       {
         number: "03",
@@ -78,8 +77,8 @@ export const config = {
       },
       {
         number: "04",
-        title: "Silence wasn't anger — it was overwhelmed.",
-        description: "When replies slowed down, I should have realized that communicating only through text across distance gets heavy. I should have offered calm space instead of frustration."
+        title: "Silence wasn't lack of care.",
+        description: "When replies slowed down after my hospital days, I should have realized that carrying distance across screens gets exhausting. I should have offered calm understanding instead of frustration."
       }
     ]
   },
@@ -90,7 +89,7 @@ export const config = {
     title: "The picture of you I held onto.",
     subtitle: "Just one quiet photo that somehow stayed with me through everything.",
     poetry: "Kuch yaadein waqt ke saath purani nahi hoti,\nbas insaan unhe chupana seekh jaata hai.",
-    quote: "We never met in real life. We never talked on a call. But out of all the distance and text bubbles between us, this photo of your eye was the one image of you I kept close to my heart.",
+    quote: "We never met in real life. We never talked on a call. But out of all the distance, the hospital days, and the text bubbles between us, this photo of your eye was the one image of you I kept close to my heart.",
     details: [
       {
         title: "The warmth in your glance",
@@ -110,43 +109,43 @@ export const config = {
   // Page 6 — Our Timeline (Missing Her)
   timeline: {
     heading: "Our story through the screen.",
-    subtitle: "How someone I only texted became a person I genuinely cared for.",
+    subtitle: "From a random app in January to a love that changed me forever.",
     poetry: "Tum paas nahi ho,\nphir bhi har jagah tumhari kami si hai.",
     entries: [
       {
-        tag: "Chapter I",
-        title: "The First Message",
-        description: "A simple text notification that turned into hours of chatting. Two strangers from different backgrounds discovering an unexpected spark.",
+        tag: "January · Chapter I",
+        title: "A Random App & Two Strangers",
+        description: "We crossed paths on a random app back in January. Neither of us expected anything, yet a simple notification turned into conversations that felt unexpectedly natural.",
       },
       {
         tag: "Chapter II",
-        title: "Late Night Typing",
-        description: "Watching the typing bubbles at 2 AM, exchanging paragraphs, sharing thoughts we usually keep to ourselves while the rest of the world slept.",
+        title: "The 10-Day Silences",
+        description: "We didn't talk every day. Sometimes 10 days would go by in complete silence, yet whenever one of us texted back, that easy closeness was right there. It never felt distant.",
       },
       {
         tag: "Chapter III",
-        title: "Hearing Your Voice & Seeing You",
-        description: "Getting to hear the sound of your voice and seeing who you were. Even without ever talking on a call, you suddenly felt so close and so real.",
+        title: "Moving to Instagram",
+        description: "We decided to share our Instagram profiles, knowing full well the reality—different religions, different backgrounds, and no simple road ahead. Yet we chose to connect anyway.",
       },
       {
         tag: "Chapter IV",
-        title: "The Unspoken Differences",
-        description: "Knowing our religions and families were completely different. The quiet hesitation in our texts, wondering what the world would think of us.",
+        title: "Falling in Love",
+        description: "On Instagram, casual messages turned into deep affection. We started loving each other and got so attached. Waiting for your typing bubble became the brightest part of my day.",
       },
       {
         tag: "Chapter V",
-        title: "The Misunderstood Texts",
-        description: "Because we never talked on calls, overthinking messages took over. Letting the lack of live tone create distance where there should have been understanding.",
+        title: "The Hospital & Illness",
+        description: "Then life took a painful turn. Because of my serious illness, I was admitted to the hospital. Being away and dealing with health struggles created a strain neither of us knew how to navigate.",
       },
       {
         tag: "Chapter VI",
-        title: "The Silence",
-        description: "The quiet when the notifications stopped, and opening my phone just to see an empty chat.",
+        title: "The Shift in Warmth",
+        description: "After those hospital days, our conversations began to lose the sweet, easy love we once had. Words grew shorter, distance crept in, and the warmth we shared started to drift away.",
       },
       {
         tag: "Chapter VII",
-        title: "What Hasn't Changed",
-        description: "Even after everything went quiet, my respect for who you are, your faith, and your peace hasn't faded for a single second. I only wish you good things.",
+        title: "Grateful for You Since January",
+        description: "Through every silence, every memory, and everything that has happened since January—I am deeply thankful to you for being in my life. You gave me happiness I won't ever forget.",
       }
     ]
   },
@@ -158,15 +157,15 @@ export const config = {
     cards: [
       {
         pre: "Thank you.",
-        message: "For trusting me with your time, your messages, and parts of your thoughts you don't share with just anyone."
+        message: "For being in my life since January. From random chats with 10-day gaps to deeply loving each other on Instagram, every moment you gave me meant everything."
       },
       {
         pre: "Thank you.",
-        message: "For every message and late-night conversation that turned an ordinary, boring day into something I looked forward to."
+        message: "For being there during my hardest times, and for giving me your care, your messages, and your warmth when I was dealing with my sickness."
       },
       {
         pre: "Thank you.",
-        message: "For your patience, and for letting me see how thoughtful and gentle your heart is, even through just text."
+        message: "For letting me see how thoughtful and gentle your heart is, even though all we had were typed words on a screen."
       },
       {
         pre: "I respect you.",
@@ -174,7 +173,7 @@ export const config = {
       },
       {
         pre: "And I'm truly sorry.",
-        message: "For the moments when messages got misunderstood, or when my words made you feel pressured or hurt. I never wanted to bring stress into your life. You deserved more patience, understanding, and peace from me.",
+        message: "For the moments when messages got misunderstood, or when my emotions or hurt made you feel pressured. When things changed after the hospital, I should have handled everything with calmer patience and gentle understanding. Please forgive me.",
         isApology: true
       }
     ]
@@ -218,17 +217,15 @@ export const config = {
     heading: "One last letter.",
     salutation: "Dear Anab,",
     body: [
-      "I know the reality of how we know each other.",
-      "We've never met in real life. We've never even had a single phone call to just talk back and forth.",
-      "I've heard the sound of your voice and I know what you look like, but everything between you and me existed in text messages, late-night typing, notifications lighting up a dark room, and this one photo of your eye that I held onto.",
-      "And I know that our different religions and backgrounds make things complicated in ways neither of us can easily change.",
-      "I want to make one thing completely clear: I am not trying to pressure you, and I never want to put any burden, guilt, or expectations on your shoulders.",
-      "I just value who you are as a person. I truly appreciated every moment and conversation we shared across the screen.",
-      "When you only communicate through text without ever talking on calls, it's so easy for words to be misunderstood. Without live tone or hearing each other in the moment, a simple text can feel cold when it was never meant to be. I know there were times I should have been calmer, more thoughtful, and far more patient.",
-      "You mean a lot to me, and your peace of mind, your faith, and your comfort will always come first.",
-      "I don't expect you to forget anything, and I'm not asking to force anything or complicate your world.",
-      "I just wanted to make this one sincere apology, and ask you to pardon me for everything.",
-      "Wherever life takes you, I genuinely wish you only happiness, safety, and peace."
+      "I still remember how this all started back in January.",
+      "We met as two strangers on a random app. At first, we didn't even talk regularly—sometimes 10 days would pass without a single message, yet whenever one of us texted, that effortless warmth was always there.",
+      "Then we decided to exchange our Instagram, knowing fully well the reality of our worlds. We knew we came from different religions, and that the odds and the future were complicated. But once we started talking on Instagram, feelings grew deeper than either of us expected. We fell in love, and we became so attached.",
+      "And then life tested us. My serious illness and having to be admitted to the hospital changed everything. The distance, the pain, and the stress created a shift between us, and from that point onward, the easy, loving conversations we used to have began to slip away.",
+      "I know that communicating only through text across glowing screens made things harder. Without ever talking on a call or seeing each other in person, it's so easy for words to be misunderstood. In those moments of distance and change, I know I made mistakes. I should have been more patient, more understanding, and far gentler with your heart.",
+      "I am not writing this to demand anything or complicate your life. Your peace, your faith, and your comfort will always matter to me.",
+      "I simply wanted to thank you from the bottom of my heart for being with me since January. For every late night, every paragraph, and every bit of warmth you brought into my life.",
+      "And most of all, I wanted to ask you to forgive and pardon me for everything I did wrong.",
+      "Wherever life leads you, Anab, I genuinely wish you only happiness, health, and endless peace."
     ],
     signoff: "With genuine respect and apology,",
     sender: "Yours"
