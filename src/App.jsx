@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import LoadingScreen from './components/LoadingScreen';
 import CursorGlow from './components/CursorGlow';
 import MusicPlayer from './components/MusicPlayer';
@@ -83,6 +84,9 @@ export default function App() {
           private & confidential
         </p>
       </footer>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
